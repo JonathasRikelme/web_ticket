@@ -1,6 +1,8 @@
 
 export default function Totem({ emitirSenha }) {
+    //recebe uma props "emitirSenha", que será uma função enviada pelo componente pai.
     return (
+        //retorna a interface
         <div className="card">
             <h2>Senhas</h2>
             <button onClick={() => emitirSenha("SP")}>Emitir SP</button>
